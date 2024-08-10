@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("../img/pilicasino.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contador {
+    font-size: 6em;
+    color: white;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: url('../img/pilicasinomobile.png');
+  }
+  #contador {
+    font-size: 4em;
+  }
+}
